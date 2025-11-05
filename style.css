@@ -138,9 +138,12 @@ section {
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
-.imgsede{
-  height: 100%;
+.imgsede {
+  width: 100%;
   max-width: 1300px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .estadisticas img {
@@ -276,3 +279,4 @@ section {
 .iconos-sociales img:hover {
   transform: scale(1.1);
 }
+
