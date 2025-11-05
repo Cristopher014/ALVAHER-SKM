@@ -102,17 +102,24 @@ section {
 
 .sectores {
   display: flex;
-  gap: 20px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 
 .sector-card {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  flex: 1;
-  min-width: 280px;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.rino {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: 10px auto 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  display: block;
 }
 
 .estadisticas {
@@ -131,13 +138,7 @@ section {
   flex: 1;
   min-width: 180px;
 }
-.rino {
- width:  40%;
-  max-width: 400px;
-  margin: 20px 0;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
-}
+
 .imgsede {
   width: 100%;
   max-width: 1300px;
@@ -279,4 +280,5 @@ section {
 .iconos-sociales img:hover {
   transform: scale(1.1);
 }
+
 
