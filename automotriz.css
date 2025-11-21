@@ -17,7 +17,7 @@
 .hero-caption {
   position: absolute;
   bottom: 200px; /* distancia desde abajo */
-  left: 170px;   /* distancia desde la izquierda */
+  left: 470px;   /* distancia desde la izquierda */
   color: rgb(255, 255, 255);
   padding: 30px 30px;
   border-radius: 5px;
@@ -235,4 +235,5 @@
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
+
 }
